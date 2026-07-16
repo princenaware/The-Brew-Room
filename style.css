@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: rgb(51, 34, 17);
+    line-height: 1.6;
+}
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(45, 29, 26); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(171, 157, 157);
+}
+.link:hover{
+    color: white;
+}
+.main{
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1642227218426-3786b108ed00?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content {
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.content-title {
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.content-subtitle {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.button-exp {
+    background-color: rgb(159, 157, 157);
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button-exp:hover{
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+.d1{
+    display: flex;
+    flex-direction: column;
+}
